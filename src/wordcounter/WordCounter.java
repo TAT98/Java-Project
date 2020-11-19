@@ -28,11 +28,11 @@ public class WordCounter extends JFrame implements ActionListener{
         b.addActionListener(this);  
       
         pad=new JButton("Pad Color");  
-        pad.setBounds(140,320, 110,30);  
+        pad.setBounds(140,320, 110,31);  
         pad.addActionListener(this);  
   
         text=new JButton("Text Color");  
-        text.setBounds(260,320, 110,30); 
+        text.setBounds(260,320, 110,31); 
         text.addActionListener(this);  
   
         add(lb1);add(lb2);add(ta);add(b);add(pad);add(text);  
